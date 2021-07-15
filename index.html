@@ -25,42 +25,40 @@
                 <!-- Nav Title -->
                 SPEK SOLUTIONS
               </a>
-              <!-- Hamburger Menu (Mobile) -->
-              <button class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none" type="button" onclick="toggleNavbar('example-collapse-navbar')">
-                <!-- Icon -->
+              <!-- Hamburger Menu (Mobile)
+              <button class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none" type="button" id="example-collapse-navbar">
                 <i class="text-white fas fa-bars"></i>
-              </button>
+              </button> -->
           </div>
         <!-- Nav Right Side -->
-        <ul class="flex flex-col lg:flex-row list-none lg:ml-auto" data-aos="fade-left">
+        <!-- <ul class="flex flex-col lg:flex-row list-none lg:ml-auto" data-aos="fade-left"> -->
           <!-- Social Media Button -->
-          <li class="flex items-center">
-            <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-              href="#comingsoon">
+          <!-- <li class="flex items-center"> -->
+            <!-- <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold" href="#comingsoon"> -->
               <!-- Icon -->
-              <i class="lg:text-gray-300 text-gray-500 fab fa-facebook text-lg leading-lg "></i>
+              <!-- <i class="lg:text-gray-300 text-gray-500 fab fa-facebook text-lg leading-lg "></i>
               <span class="lg:hidden inline-block ml-2">Share</span>
             </a>
-          </li>
+          </li> -->
           <!-- Social Media Button -->
-          <li class="flex items-center">
+          <!-- <li class="flex items-center">
             <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-              href="#comingsoon">
+              href="#comingsoon"> -->
               <!-- Icon -->
-              <i class="lg:text-gray-300 text-gray-500 fab fa-twitter text-lg leading-lg "></i>
+              <!-- <i class="lg:text-gray-300 text-gray-500 fab fa-twitter text-lg leading-lg "></i>
               <span class="lg:hidden inline-block ml-2">Tweet</span>
             </a>
-          </li>
+          </li> -->
           <!-- Social Media Button -->
-          <li class="flex items-center">
+          <!-- <li class="flex items-center">
             <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-              href="https://github.com/sumitdey851">
+              href="https://github.com/sumitdey851"> -->
               <!-- Icon -->
-              <i class="lg:text-gray-300 text-gray-500 fab fa-github text-lg leading-lg "></i>
+              <!-- <i class="lg:text-gray-300 text-gray-500 fab fa-github text-lg leading-lg "></i>
               <span class="lg:hidden inline-block ml-2">Star</span>
             </a>
           </li>
-        </ul>
+        </ul> -->
       </div>
     </div>
   </nav>
@@ -743,20 +741,7 @@
 </body>
 <!-- AOS JS -->
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-  AOS.init({
-    // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
-  delay: 200, // values from 0 to 3000, with step 50ms
-  duration: 1500, // values from 0 to 3000, with step 50ms
-  once: false, // whether animation should happen only once - while scrolling down
-  mirror: false, // whether elements should animate out while scrolling past them
-  });
-</script>
+<script src="js/aosInit.js"></script>
 <!-- Navigation Script -->
-<script>
-  function toggleNavbar(collapseID) {
-    document.getElementById(collapseID).classList.toggle("hidden");
-    document.getElementById(collapseID).classList.toggle("block");
-  }
-</script>
+<!-- <script src="js/navbar.js"></script> -->
 </html>
